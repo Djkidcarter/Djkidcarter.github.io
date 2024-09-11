@@ -1,1 +1,28 @@
-
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-family: cursive;
+  color: orange;
+  
+}
+a:link{
+  color: greenyellow;
+}
+a:hover{
+  color: red;
+  background-color: cornflowerblue
+}
+body{
+  background-image:url(pitch.jpg)
+}
+p{
+  color:ghostwhite
+}
+div{
+  text-align: center;
+  word-spacing: 60px;
+  font-size: 20px
+}
+img{
+  width: 200px
+}
