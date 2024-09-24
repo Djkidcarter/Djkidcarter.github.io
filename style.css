@@ -26,9 +26,16 @@ div{
 img{
   width: 200px
 }
-@media only screen and (max-width : 320px) {
-	
-body
-	
-
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  div {
+    word-spacing: 20px;
+    font-size: 16px;
+  }
+  img {
+    width: 100px;
+  }
 }
+
