@@ -26,6 +26,9 @@ div{
 img{
   width: 200px;
 }
+  h1 {
+    font-size: 60px;
+  }
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 60px;
