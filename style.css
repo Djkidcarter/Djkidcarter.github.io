@@ -13,22 +13,22 @@ a:hover{
   background-color: cornflowerblue
 }
 body{
-  background-image:url(pitch.jpg)
+  background-image:url(pitch.jpg);
 }
 p{
-  color:ghostwhite
+  color:ghostwhite;
 }
 div{
   text-align: center;
   word-spacing: 60px;
-  font-size: 20px
+  font-size: 20px;
 }
 img{
-  width: 200px
+  width: 200px;
 }
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 24px;
+    font-size: 60px;
   }
   div {
     word-spacing: 20px;
