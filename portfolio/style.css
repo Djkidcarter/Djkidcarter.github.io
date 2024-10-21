@@ -20,7 +20,7 @@ div {
   word-spacing: 10px;
 }
 body {
-  background-color: purple;
+  background-color: lilac;
 }
 
 @media screen and (max-width: 320px) {
