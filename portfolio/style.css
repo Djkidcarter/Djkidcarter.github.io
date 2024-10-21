@@ -18,6 +18,9 @@ div {
   text-align: center;
   font-size: 20px;
 }
+body{
+  background-color: purple;
+}
 
 @media screen and (max-width: 320px) {
   h1 {
