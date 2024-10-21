@@ -19,7 +19,7 @@ div {
   font-size: 20px;
 }
 body {
-  background-color: lilac;
+  background-color: aqua;
 }
 
 @media screen and (max-width: 320px) {
