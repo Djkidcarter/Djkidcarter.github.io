@@ -21,6 +21,8 @@ div {
 body {
   background-color: aqua;
 }
+img {
+  align-items: center;
 
 @media screen and (max-width: 320px) {
   h1 {
