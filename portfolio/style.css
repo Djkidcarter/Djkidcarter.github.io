@@ -22,7 +22,10 @@ div {
 }
 
 body {
-  background-image:url(main-background.jpg);
+    background-image: url('main-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 @media screen and (max-width: 320px) {
