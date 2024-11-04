@@ -3,7 +3,7 @@ h1 {
   text-decoration: underline;
   font-family: Arial, sans-serif;
   color: orange;
-  }
+}
 
 a:link {
   color: blue;
@@ -11,13 +11,14 @@ a:link {
 
 a:hover {
   color: red;
-  background-color: cornflowerblue
+  background-color: cornflowerblue;
 }
 
 div {
   text-align: center;
   font-size: 20px;
 }
+
 body {
   background-color: aqua;
 }
@@ -34,30 +35,32 @@ body {
     width: 100px;
   }
 }
-  @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
   h1 {
     font-size: 24px;
   }
   img {
     width: 100px;
   }
-  body {
-    font-family: Arial, sans-serif;
 }
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
+body {
+  font-family: Arial, sans-serif;
 }
 
-  .photo {
-    max-width: 200px; 
-    margin-right: 20px; 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
 }
 
-  .main-text {
-    max-width: 800px; 
+.photo {
+  max-width: 200px; 
+  margin-right: 20px; 
 }
 
+.main-text {
+  max-width: 800px; 
+}
