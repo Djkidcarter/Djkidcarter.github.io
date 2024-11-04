@@ -22,7 +22,7 @@ div {
 }
 
 body {
-  background-image:url(kaisa-main-page.jpg);
+  background-image:url(main-background.jpg);
 }
 
 @media screen and (max-width: 320px) {
