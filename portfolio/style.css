@@ -20,7 +20,7 @@ div {
 }
 
 body {
-  background-color: aqua;
+  background-image:url(kaisa-main-page.jpg);
 }
 
 @media screen and (max-width: 320px) {
