@@ -64,3 +64,12 @@ body {
 .main-text {
   max-width: 800px; 
 }
+
+div a {
+    margin-right: 15px;
+}
+
+div a:first-child {
+    margin-left: 15px;
+}
+
