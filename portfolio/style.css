@@ -4,9 +4,11 @@ h1 {
   font-family: Arial, sans-serif;
   color: orange;
 }
+
 p {
   color: black;
 }
+
 a:link {
   color: blue;
 }
@@ -22,10 +24,35 @@ div {
 }
 
 body {
-    background-image: url('main-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  background-image: url('main-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.photo {
+  max-width: 200px; 
+  margin-right: 20px; 
+}
+
+.main-text {
+  max-width: 800px; 
+}
+
+div a {
+  margin-right: 15px;
+}
+
+div a:first-child {
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 320px) {
@@ -48,33 +75,15 @@ body {
   img {
     width: 100px;
   }
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .photo {
+    width: 100px;
+    margin: 0 auto 10px; 
+  }
+  .main-text {
+    max-width: 100%;
+  }
 }
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 20px;
-}
-
-.photo {
-  max-width: 200px; 
-  margin-right: 20px; 
-}
-
-.main-text {
-  max-width: 800px; 
-}
-
-div a {
-    margin-right: 15px;
-}
-
-div a:first-child {
-    margin-left: 15px;
-}
-
