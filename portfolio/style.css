@@ -45,9 +45,29 @@ body {
   img {
     width: 100px;
   }
-  .center {
+    .center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; 
         }
+    body {
+    font-family: Arial, sans-serif;
+}
+
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+    .photo {
+    max-width: 200px; /* Adjust size as needed */
+    margin-right: 20px; /* Space between photo and text */
+}
+
+    .main-text {
+    max-width: 800px; /* Adjust width as needed */
+}
+
