@@ -29,6 +29,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .container {
@@ -74,6 +76,10 @@ div a:first-child {
   }
   img {
     width: 100px;
+  }
+  body {
+    background-size: auto 100%;
+    background-position: center top;
   }
   .container {
     display: block;
