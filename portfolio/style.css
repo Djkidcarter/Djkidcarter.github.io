@@ -5,6 +5,13 @@ h1 {
   color: deeppink;
 }
 
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  color: deeppink;
+}
+
 p {
   color: black;
 }
