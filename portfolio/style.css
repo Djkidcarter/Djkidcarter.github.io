@@ -36,10 +36,12 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: center;  /* Vertically center */
+  justify-content: center;  /* Horizontally center */
+  flex-direction: column;  /* Stack elements vertically */
   padding: 20px;
 }
+
 
 .photo {
   max-width: 200px; 
