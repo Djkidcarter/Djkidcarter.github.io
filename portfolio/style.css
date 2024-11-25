@@ -61,6 +61,9 @@ div a:first-child {
 }
 
 @media screen and (max-width: 320px) {
+  .table {
+    display: block;
+  }
   h1 {
     font-size: 24px;
   }
