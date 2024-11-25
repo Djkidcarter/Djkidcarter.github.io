@@ -62,7 +62,7 @@ div a:first-child {
 
 @media screen and (max-width: 320px) {
   .table {
-    display: block;
+    display: center;
   }
   h1 {
     font-size: 24px;
@@ -78,7 +78,7 @@ div a:first-child {
 
 @media screen and (max-width: 600px) {
   .table {
-    display: block;
+    display: center;
   }
   h1 {
     font-size: 24px;
